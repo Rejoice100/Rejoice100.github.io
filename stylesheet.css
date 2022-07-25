@@ -2,6 +2,9 @@ body {
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
 }
 h1 {
     font-size: 3rem;
@@ -10,6 +13,7 @@ h1 {
     background: aliceblue;
     margin: 10px 10px 10px 5px;
     padding: 5px 25px 10px 10px;
+    
    
 }
 h5 {
@@ -28,4 +32,8 @@ img {
 div > ul > li {
     margin: 0px 10px 20px 10px;
     text-align: justify;
+}
+ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
 }
